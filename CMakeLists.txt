@@ -7,7 +7,6 @@ add_executable(untitled2
         prekol.cpp
         prekol2.cpp
         prekol3.cpp
-        prekol4.cpp
         prekol5.cpp
         prekol6.cpp
         prekol7.cpp
