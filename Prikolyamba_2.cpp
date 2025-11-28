@@ -40,7 +40,7 @@ void task_2() {
 void task_3() {
     set_ua_locale();
     double a, b, c;
-    cout<<"Введіть значення="<<endl;
+    cout<<"Введіть три значення="<<endl;
     cin>>a>>b>>c;
     if (a+b>c && a+c>b && b+c>a) {
         cout<<"Можна побудувати"<<endl;
@@ -114,12 +114,11 @@ void task_7() {
     cout<<middle<<endl;
 }
 int main() {
-    set_ua_locale();
     task_1();
     task_2();
-    // task_3();
-    // task_5();
-    // task_6();
-    // task_7();
+    task_3();
+    task_5();
+    task_6();
+    task_7();
     return 0;
 }
